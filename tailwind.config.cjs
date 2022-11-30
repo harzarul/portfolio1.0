@@ -7,6 +7,7 @@ module.exports = {
       colors: {
         primary: "rgba(10, 10, 10, 0.85)",
         secondary: "rgba(245, 245, 245, 0.85)",
+        gold: "rgba(222, 178, 30, 0.95)",
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
