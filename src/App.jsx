@@ -6,7 +6,7 @@ import {Hero, AboutMe, Projects} from './containers';
 
 const App = () => {
   return (
-    <div className='bg-primary w-full overflow-hidden'>
+    <div className='bg-secondary w-full overflow-hidden'>
       <Hero/>
       <AboutMe/>
       <Projects/>

@@ -5,11 +5,13 @@
 @tailwind utilities;
 
 
+
 *{
     scroll-behavior: smooth;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Comfortaa', serif;
 }
 
 a {
@@ -19,4 +21,29 @@ a {
 
 ul{
     list-style: none;
+}
+
+.hero__background{
+    background-image: url(../assets/bg1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.75);
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay2{
+    background-color: rgba(0, 0, 0, 0.9);
+    background-size: cover;
+    background-position: center;
+}
+
+.card__background{
+    background-color: rgba(151, 255, 246, 0.5);
+    background-size: cover;
+    background-position: center;
+    border-radius: 1.2rem;
 }

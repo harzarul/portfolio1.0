@@ -12,8 +12,8 @@ const styles = {
     flexStart: 'flex justify-start items-start',
     flexEnd: 'flex justify-end items-end',
 
-    text: 'capitalize text-secondary font-poppins lg:text-[1.6rem] sm:text-[1.4rem] text-[1.3rem] lg:leading-[2.1rem] sm:leading-[1.8rem] leading-[1.6rem]',
-    heading: 'uppercase text-secondary font-Comfortaa font-bold lg:text-[6rem] sm:text-[4rem] text-[4rem] lg:leading-[5rem] sm:leading-[3.5rem] leading-[3.5rem]'
+    text: 'capitalize text-secondary font-poppins lg:text-[1.6rem] sm:text-[1.4rem] text-[1.1rem] lg:leading-[2.2rem] sm:leading-[2rem] leading-[1.6rem]',
+    heading: 'uppercase text-secondary font-Comfortaa font-bold lg:text-[6rem] sm:text-[4rem] text-[4rem] lg:leading-[5rem] sm:leading-[3.5rem] leading-[3.5rem]',
 }
 
 export default styles;
