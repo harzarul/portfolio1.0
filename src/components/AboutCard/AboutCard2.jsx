@@ -1,24 +1,30 @@
 
 import styles from "../../styles";
-import { Psy } from "../../constants/images";
+import {staggerContainer} from '../../utils/motion';
+import {motion} from 'framer-motion';
+import { TypingText } from "../CustomText/CustomText";
 
-const AboutCard2 = ({exp, title, imgUrl}) => {
+const AboutCard2 = ({title, years, imgUrl, summary}) => {
+  
   return (
     <div className={`flex lg:flex-row flex-col-reverse lg:justify-between justify-center lg:items-start items-center ${styles.paddings} card__background w-full my-[2rem] max-w-[1700px]`}>
-      <div className="lg:w-[50%] w-[100%] flex flex-col justify-start lg:items-end items-center lg:my-0 my-2">
+      <motion.div className="lg:w-[50%] w-[100%] flex flex-col justify-start lg:items-end items-center lg:my-0 my-2"
+        variants={staggerContainer}
+        initial='hidden'
+        whileInView='show'
+        viewport={{once: true, amount: 0.25}}>
         <p className={`mb-3 ${styles.text} text-secondary font-bold`}>
-          {title} exp: {exp}
+          <TypingText title={`${title} exp: ${years}`} textStyles='text-center font-bold'/>
         </p>
-        <p className="text-[1.3rem] text-secondary">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti amet blanditiis totam 
-          distinctio culpa commodi aspernatur quia odit laudantium? In sit animi debitis autem fugiat 
-          magni ratione et, ad beatae?
+        <p className="lg:text-[1.3rem] text-[1.1rem] text-secondary">
+          {summary}
         </p>
-      </div>
+      </motion.div>
       
       <img className="w-[18rem] h-[18rem] rounded-[50%]"
         src={imgUrl}
-        alt="psychologist" />
+        alt="psychologist"
+        />
     </div>
   )
 }

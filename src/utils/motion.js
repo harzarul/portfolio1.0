@@ -1,3 +1,13 @@
+export const staggerContainer = (staggerChildren, delayChildren) => ({
+  hidden: {},
+  show: {
+    transition: {
+      staggerChildren,
+      delayChildren,
+    },
+  },
+});
+
 export const dropDown = {
     hidden: {
         opacity: 0,
@@ -15,7 +25,7 @@ export const dropDown = {
         transition: {
             type: 'spring',
             stiffness: 80,
-            delay: 1,
+            delay: .5,
         },
     },
 };
@@ -96,12 +106,3 @@ export const textVariant2 = {
   },
 };
 
-export const staggerContainer = (staggerChildren, delayChildren) => ({
-  hidden: {},
-  show: {
-    transition: {
-      staggerChildren,
-      delayChildren,
-    },
-  },
-});

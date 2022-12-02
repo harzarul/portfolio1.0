@@ -2,7 +2,7 @@ import styles from "../../styles";
 import {motion} from 'framer-motion';
 import { AboutCard1, AboutCard2 } from "../../components";
 import { dropDown } from "../../utils/motion";
-import { Psy, Perma, Trader } from "../../constants/images";
+import { aboutData } from "../../constants";
 
 const AboutMe = () => {
   return (
@@ -15,9 +15,10 @@ const AboutMe = () => {
         viewport={{once: true, amount: 0.25}}>
         About Me
       </motion.h1>
-      <AboutCard1 exp='2012 - Current' title='Psychologist' imgUrl={Psy}/>
-      <AboutCard2 exp='2018 - Current' title='Trader' imgUrl={Trader}/>
-      <AboutCard1 exp='2015 - 2019' title='Permaculturist' imgUrl={Perma}/>
+
+      {aboutData.map((data,index) => (
+        (index % 2 == 0 ? <AboutCard1 {...data} key={index} /> : <AboutCard2 {...data} key={index}/>)
+      ))}
     </section>
   )
 }
