@@ -1,5 +1,5 @@
 
-import {Hero, AboutMe, Projects} from './containers';
+import {Hero, AboutMe, Projects, Faq} from './containers';
 
 const App = () => {
   return (
@@ -7,6 +7,7 @@ const App = () => {
       <Hero/>
       <AboutMe/>
       <Projects/>
+      <Faq/>
     </div>
   )
 }
