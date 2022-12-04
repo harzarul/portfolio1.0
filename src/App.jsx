@@ -1,5 +1,6 @@
 
 import {Hero, AboutMe, Projects, Faq} from './containers';
+import {Footer} from './components';
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
       <AboutMe/>
       <Projects/>
       <Faq/>
+      <Footer/>
     </div>
   )
 }

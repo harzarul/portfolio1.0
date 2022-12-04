@@ -32,7 +32,7 @@ const Navbar = () => {
               {navLinks.map((nav,index) => (
                 <li className={`font-poppins font-normal text-[2rem] cursor-pointer ${active === nav.id ? 'text-gold' : 'text-secondary'} ${index === navLinks.length -1 ? 'mr-0' : 'mr-10'}`}
                   key={nav.id}
-                  onClick={() => setActive(nav.id)}>
+                  onClick={() => (setActive(nav.id), setToggle(!toggle))}>
                     <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}

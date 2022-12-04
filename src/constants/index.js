@@ -1,4 +1,4 @@
-import {Psy, Perma, Trader} from './images';
+import {Psy, Perma, Trader, Restaurant, Photographer, CryptoBroker, CryptoTracker, Metaversus} from './images';
 
 export const navLinks = [
     {
@@ -36,5 +36,56 @@ export const aboutData = [
         years: '2015 - 2019',
         imgUrl: Perma,
         summary: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti amet blanditiis totam distinctio culpa commodi aspernatur quia odit laudantium? In sit animi debitis autem fugiat magni ratione et, ad beatae?',
+    },
+];
+
+export const projectsData = [
+    {
+        id: 'restaurant',
+        imgUrl: Restaurant,
+        title: 'Exclusive Restaurant',
+        link: ' ',
+    },
+    {
+        id: 'photographer',
+        imgUrl: Photographer,
+        title: 'Freelance Photographer',
+        link: ' ',
+    },
+    {
+        id: 'hoobank',
+        imgUrl: CryptoBroker,
+        title: 'Crypto Broker',
+        link: ' ',
+    },
+    {
+        id: 'cryptotracker',
+        imgUrl: CryptoTracker,
+        title: 'Crypto Tracker',
+        link: '',
+    },
+    {
+        id: 'metaburst',
+        imgUrl: Metaversus,
+        title: 'Metaversus',
+        link: ' ',
+    },
+];
+
+export const faqData = [
+    {
+        id: 'faq1',
+        question: 'Lorem ipsum dolor sit amet.1',
+        answer: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat, officiis eius.',
+    },
+    {
+        id: 'faq2',
+        question: 'Lorem ipsum dolor sit amet.2',
+        answer: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat, officiis eius.',
+    },
+    {
+        id: 'faq2',
+        question: 'Lorem ipsum dolor sit amet.3',
+        answer: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat, officiis eius.',
     },
 ]

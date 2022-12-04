@@ -8,6 +8,8 @@ module.exports = {
         primary: "rgba(10, 10, 10, 0.85)",
         secondary: "rgba(245, 245, 245, 0.85)",
         gold: "rgba(222, 178, 30, 0.95)",
+        red: "rgba(245, 40, 145, 0.8)",
+        green: "rgba(39, 245, 206, 0.8)",
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
