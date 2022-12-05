@@ -21,21 +21,21 @@ export const aboutData = [
         title: 'Psychologist',
         years: '2012 - Current',
         imgUrl: Psy,
-        summary: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti amet blanditiis totam distinctio culpa commodi aspernatur quia odit laudantium? In sit animi debitis autem fugiat magni ratione et, ad beatae?',
+        summary: 'I strongly believe that languages are more than just a sound wave that can be sense by our hearing. Hence the experience mingling in the psychology world helps me to read my environment in a very efficient way. ',
     },
     {
         id: 'trader',
         title: 'Trader',
         years: '2018 - Current',
         imgUrl: Trader,
-        summary: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti amet blanditiis totam distinctio culpa commodi aspernatur quia odit laudantium? In sit animi debitis autem fugiat magni ratione et, ad beatae?',
+        summary: 'Since Mathematics is one of my favourite language, I use it as a tool to explore the world through the lens of stock market. To be precise I involve in US penny stock. My highest gain is 700%. It ain’t what you don’t know that gets you into trouble. It’s what you know for sure that just ain’t so –Mark Twain',
     },
     {
         id: 'permaculturist',
         title: 'Permaculturist',
         years: '2015 - 2019',
         imgUrl: Perma,
-        summary: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti amet blanditiis totam distinctio culpa commodi aspernatur quia odit laudantium? In sit animi debitis autem fugiat magni ratione et, ad beatae?',
+        summary: 'We evolve based on how we work to consume energy (food/drink). Hence it’s one of the best resources to evaluate human behaviour as a pack. Due to the way we demand and consume, we capable of wasting 4000 Tons of edible and manage to reduce the % of nutrients/gram in our food. Hence it’s not a surprise that inflation never went down in 2 consecutive years since WW1.',
     },
 ];
 
@@ -44,48 +44,48 @@ export const projectsData = [
         id: 'restaurant',
         imgUrl: Restaurant,
         title: 'Exclusive Restaurant',
-        link: ' ',
+        link: 'https://www.youtube.com/',
     },
     {
         id: 'photographer',
         imgUrl: Photographer,
         title: 'Freelance Photographer',
-        link: ' ',
+        link: 'https://www.youtube.com/',
     },
     {
         id: 'hoobank',
         imgUrl: CryptoBroker,
         title: 'Crypto Broker',
-        link: ' ',
+        link: 'https://www.youtube.com/',
     },
     {
         id: 'cryptotracker',
         imgUrl: CryptoTracker,
         title: 'Crypto Tracker',
-        link: '',
+        link: 'https://www.youtube.com/',
     },
     {
         id: 'metaburst',
         imgUrl: Metaversus,
         title: 'Metaversus',
-        link: ' ',
+        link: 'https://www.youtube.com/',
     },
 ];
 
 export const faqData = [
     {
         id: 'faq1',
-        question: 'Lorem ipsum dolor sit amet.1',
-        answer: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat, officiis eius.',
+        question: 'Study Smart or Study Hard?',
+        answer: 'Study Hard The Smart Way. Why choose when nobody can stop you from having both',
     },
     {
         id: 'faq2',
-        question: 'Lorem ipsum dolor sit amet.2',
-        answer: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat, officiis eius.',
+        question: 'What is your Nindo?',
+        answer: 'To thine ownself be true.',
     },
     {
         id: 'faq2',
-        question: 'Lorem ipsum dolor sit amet.3',
-        answer: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat, officiis eius.',
+        question: 'What is your long term target in CS field?',
+        answer: 'Develop an app that have the potential to privatize a government sector.',
     },
 ]

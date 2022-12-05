@@ -19,10 +19,12 @@ const ProjectCard = ({id, imgUrl, title, link, index, active, handleClick}) => {
                 <p className="font-normal text-[16px] leading-[20.16px] text-white uppercase">
                     Enter Metaverse
                 </p>
-                <h2 className="mt-[24px] font-semibold sm:text-[32px] text-[24px] text-white">
-                {title}
-                </h2>
-        </div>
+                <a href={link} target='_blank'>
+                    <h2 className="mt-[24px] font-semibold sm:text-[32px] text-[24px] text-white hover:text-gold cursor-pointer">
+                    {title}
+                    </h2>
+                </a>
+            </div>
         )}
     </div>
   )

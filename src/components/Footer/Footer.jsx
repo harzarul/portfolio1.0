@@ -7,6 +7,7 @@ import { TypingText } from "../CustomText/CustomText";
 import { staggerContainer } from '../../utils/motion';
 import {FaCopyright} from 'react-icons/fa';
 
+
 const Footer = () => {
   const form = useRef();
   
@@ -60,6 +61,11 @@ const Footer = () => {
             value="Send" />
         </form>
       </motion.div>
+      <div className={`bg-primary w-[100%] ${styles.flexCenter}`}>
+        <h1 className='flex flex-row lg:text-[1.2rem] text-[1rem] text-secondary mt-1'>
+          <FaCopyright className='text-[1rem]'/> Harzarul since 2022
+        </h1>
+      </div>
     </footer>
   )
 }
