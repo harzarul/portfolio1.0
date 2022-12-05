@@ -16,7 +16,7 @@ const Faq = () => {
 
   return (
     <div className={`${styles.paddings} ${styles.flexCenter} flex-col overlay2`}>
-      <h1 className={`${styles.heading} mb-[6rem]`}>
+      <h1 className={` mb-[2rem] ${styles.heading}`}>
         Faq
       </h1>
       
