@@ -42,7 +42,7 @@ const Footer = () => {
             <label className={`${styles.text} text-secondary font-bold`}>
               <TypingText title={'Name'} textStyles={'text-start'}/>
             </label>
-            <input className='h-[2rem] ss:w-[80%] w-[80%] max-w-[20rem] rounded-lg'
+            <input className='h-[2rem] ss:w-[80%] w-[80%] max-w-[20rem] rounded-lg px-2'
               type="text"
               name="user_name" />
           </div>
@@ -50,7 +50,7 @@ const Footer = () => {
             <label className={`${styles.text} text-secondary font-bold`}>
               <TypingText title={'Email'} textStyles={'text-start'}/>
             </label>
-            <input className='h-[2rem] ss:w-[80%] w-[80%] max-w-[20rem] rounded-lg'
+            <input className='h-[2rem] ss:w-[80%] w-[80%] max-w-[20rem] rounded-lg px-2'
               type="email"
               name="user_email" />
           </div>
@@ -58,7 +58,7 @@ const Footer = () => {
             <label className={`${styles.text} text-secondary font-bold`}>
               <TypingText title={'Message'} textStyles={'text-start'}/>
             </label>
-            <textarea className='h-[7rem] w-[70%] rounded-lg max-w-[25rem]'
+            <textarea className='h-[7rem] w-[70%] rounded-lg max-w-[25rem] p-2'
               name="message" />
           </div>
           <input className='bg-green px-[2rem] py-[.2rem] cursor-pointer rounded-md text-[1.3rem] mb-5'
