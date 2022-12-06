@@ -72,7 +72,7 @@ export const projectsData = [
         id: 'metaburst',
         imgUrl: Metaversus,
         title: 'Metaversus',
-        link: 'https://www.youtube.com/',
+        link: 'https://github.com/harzarul',
         ps: 'Advance Tailwind Project',
     },
 ];
