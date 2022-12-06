@@ -24,7 +24,12 @@ const Footer = () => {
   };
 
   return (
-    <footer className={`footer__overlay bg-fixed flex flex-col justify-between items-center`}>
+    <footer className={`footer__overlay bg-fixed flex flex-col justify-between items-center`} id='contact'>
+      <div className={`overlay w-[100%] lg:justify-start ${styles.flexCenter}`}>
+        <h1 className={`flex flex-row lg:text-[3rem] text-[1.5rem] text-secondary my-1 ml-[2rem] border-b-[1px]`}>
+          Contact Me
+        </h1>
+      </div>
       <motion.div className='w-[100%] overlay flex lg:flex-row flex-col justify-between lg:items-start items-center'
         variants={staggerContainer}
         initial='hidden'
