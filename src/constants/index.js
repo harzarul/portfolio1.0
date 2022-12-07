@@ -95,6 +95,6 @@ export const faqData = [
     {
         id: 'faq2',
         question: 'What is your long term target in CS field?',
-        answer: 'Develop an app that have the potential to privatize a government sector.',
+        answer: 'Build an app impactful as Piratebay and Bitcoin.',
     },
 ]
